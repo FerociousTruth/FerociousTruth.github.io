@@ -1,0 +1,16 @@
+---
+layout: master
+---
+{% include nav.html %}
+{% if paginator.page == 1 %}
+	{% include header.html %}
+{% endif %}
+<div id="page-start" class="nav-space"></div>
+<div class="page container">
+	<div class="page-content row">
+		<div class="col-lg-8 col-lg-offset-2">
+		{{ content }}
+		</div>
+	</div>
+</div>
+{% include footer.html %}

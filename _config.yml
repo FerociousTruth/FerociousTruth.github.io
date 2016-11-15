@@ -1,0 +1,15 @@
+name: J Thomas Moros
+markdown: kramdown
+exclude: [README.md]
+highlights: pygments
+encoding: UTF-8
+permalink: /:year/:title/
+paginate: 5
+paginate_path: "/page-:num"
+url: "http://FerociousTruth.com/"
+title: "Ferocious Truth"
+author:
+  name: J Thomas Moros
+  email: J@FerociousTruth.com
+gems:
+  - jekyll-redirect-from
