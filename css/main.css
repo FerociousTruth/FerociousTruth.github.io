@@ -4,7 +4,7 @@ body
 	height: 100%;
 	font-family: 'Crimson Text', serif;
 	font-size: 14pt;
-	color: black;
+	color: #444;
 	background-color: white;
 }
 html {
@@ -12,15 +12,23 @@ html {
   height: 100%;
 }
 
+/* when something isn't set up correct in a post */
+.error
+{
+	font-size: 48pt;
+	color: red;
+	text-align: center;
+}
+
 /* Link color */
 a:link, :visited
 {
-	color: #69809B /*#9C8A6A*/;
+	color: #69809B;
 	text-decoration: none;
 }
 a:hover, a:active
 {
-	color: #262E38 /*3E372B*/;
+	color: #262E38;
 	text-decoration: underline;
 }
 
@@ -220,6 +228,10 @@ a:hover, a:active
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
+.btn-circle:link, .btn-circle:visited
+{
+  color: white;
+}
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
@@ -272,6 +284,58 @@ a:hover, a:active
 }
 
 /* article stuff */
+article
+{
+	margin-top: 2em;
+	border-top: 1px solid #ddd;
+}
+
+article > .pub-line
+{
+	text-align: center;
+}
+article > .pub-line .published
+{
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	top: -1em;
+	padding: 0 1ex;
+	font-family: "helvetica neue", helvetica, arial;
+	letter-spacing: normal;
+	font-size: 12pt;
+	color: #999;
+	background: #FFF;
+}
+
+@media print
+{
+	article > .pub-line .published
+	{
+		top: 0;
+	}
+}
+
+article h1
+{
+	color: #444;
+	text-transform: none;
+}
+
+article h1 a:link, article h1 :visited
+{
+	color: #444;
+}
+
+article .byline
+{
+	font-size: 1.2em;
+}
+article .disclaimer
+{
+	font-size: 0.8em;
+	margin-bottom: 1em;
+}
 
 article, p, .page-nav, li
 {
