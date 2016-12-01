@@ -271,6 +271,66 @@ a:hover, a:active
   }
 }
 
+/* article stuff */
+
+article, p, .page-nav, li
+{
+	font-size: 14pt;
+	line-height: 1.5em;
+	color: #444;
+}
+
+article, article p, article ul, .page-nav
+{
+	margin-bottom: 1.75em;
+}
+
+article p+ul, article p+ol
+{
+	margin-top: -1em;
+}
+
+blockquote p
+{
+	margin: 0 0 10px;
+}
+
+cite
+{
+	font-style: italic;
+}
+
+/* page nav */
+
+.page-nav
+{
+	border: 1px solid #ddd;
+	/*border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;*/
+	padding-top: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin: 1.5em 0;
+	background-color: #f7f7f7;
+}
+
+.page-nav .previous, .page-nav .older
+{
+	display: block;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.page-nav .next, .page-nav .newer
+{
+	display: block;
+	float: right;
+	text-align: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
 /* footer */
 footer
 {
