@@ -337,6 +337,59 @@ article .disclaimer
 	margin-bottom: 1em;
 }
 
+article .content
+{
+	margin-top: 1em;
+}
+
+article img
+{
+	max-width: 100%;
+}
+
+article .meta
+{
+	color: #999;
+}
+
+article .meta .pub-line, article .meta .topic-line, article .meta .no-comments
+{
+	text-transform: uppercase;
+}
+
+article .meta .published, article .meta .topics
+{
+	text-transform: none;
+}
+
+article .meta .no-comments
+{
+	margin-top: 0.5em;
+	text-align: center;
+}
+
+article .meta .comments
+{
+	text-align: center;
+}
+
+article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
+{
+	float: right;
+	margin-right: 4ex;
+}
+
+article .meta .subscribe
+{
+	margin-right: 0; /* no margin for the rightmost button */
+	overflow-x: hidden; /* hide the space removed from the feedpress-button */
+}
+
+article .meta .subscribe > .feedpress-button
+{
+	margin-right: -11px; /* get rid of extra space from feed press */
+}
+
 article, p, .page-nav, li
 {
 	font-size: 14pt;
