@@ -7,7 +7,17 @@ body
 	color: #444;
 	background-color: white;
 }
-html {
+
+@media print
+{
+	body
+	{
+		color: #000;
+	}
+}
+
+html
+{
   width: 100%;
   height: 100%;
 }
@@ -36,6 +46,13 @@ a:hover, a:active
 .nav-space
 {
 	height: 70px;
+}
+@media print
+{
+	.nav-space
+	{
+		display: none;
+	}
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -189,30 +206,50 @@ a:hover, a:active
 	right: 0;
 	background: url(../img/fade.png) repeat-x;
 }
+@media print
+{
+	.intro .page-scroll
+	{
+		display: none;
+	}
+}
 @media (min-width: 768px)
 {
-  .intro
-   {
-    height: 100%;
-    padding: 0;
-  }
-  .intro .intro-body .row
+	.intro
+	{
+		height: 100%;
+		padding: 0;
+	}
+	.intro .intro-body .row
 	{
 		margin-top: 85px;
 		margin-bottom: 85px;
 	}
-  .intro .intro-body .intro-brand
-   {
-    font-size: 128px;
-  }
+	.intro .intro-body .intro-brand
+	{
+		font-size: 128px;
+	}
 	.intro .intro-body .intro-connector
 	{
 		font-size: 40px;
 	}
-  .intro .intro-body .intro-tagline
-   {
-    font-size: 50px;
-  }
+	.intro .intro-body .intro-tagline
+	{
+		font-size: 50px;
+	}
+}
+@media print
+{
+	.intro .intro-body .row
+	{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.intro-fade
+	{
+		display: none;
+	}
 }
 .btn-circle {
   width: 70px;
@@ -281,6 +318,16 @@ a:hover, a:active
     -moz-transform: scale(1);
     transform: scale(1);
   }
+}
+
+
+@media print
+{
+	a[href].internal:after,
+	a[href].cited:after
+	{
+		content: none;
+	}
 }
 
 /* article stuff */
@@ -379,6 +426,14 @@ article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
 	margin-right: 4ex;
 }
 
+@media print
+{
+	article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
+	{
+		display: none;
+	}
+}
+
 article .meta .subscribe
 {
 	margin-right: 0; /* no margin for the rightmost button */
@@ -402,9 +457,22 @@ article, article p, article ul, .page-nav
 	margin-bottom: 1.75em;
 }
 
+@media print
+{
+	.page-nav
+	{
+		display: none;
+	}
+}
+
 article p+ul, article p+ol
 {
 	margin-top: -1em;
+}
+
+blockquote
+{
+	margin: 0 0 1.75em;
 }
 
 blockquote p
@@ -412,9 +480,33 @@ blockquote p
 	margin: 0 0 10px;
 }
 
+blockquote footer
+{
+	margin-top: 0;
+}
+
 cite
 {
 	font-style: italic;
+}
+
+/* footnotes shouldn't have space between them */
+.footnotes li p:last-child
+{
+	margin-bottom: 0;
+}
+
+@media print
+{
+	.reversefootnote
+	{
+		display: none;
+	}
+
+	.footnotes a[href]:after
+	{
+		content: " " attr(href);
+	}
 }
 
 /* page nav */
