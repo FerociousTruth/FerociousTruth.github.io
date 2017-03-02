@@ -375,7 +375,7 @@ article h1 a:link, article h1 :visited
 }
 
 /* Fix scroll to anchor inside of document */
-article *[id]:before
+article h2[id]:before, article .anchor[id]:before
 {
 	display: block;
 	content: " ";
