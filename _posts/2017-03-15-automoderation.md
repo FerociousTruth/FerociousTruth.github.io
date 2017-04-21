@@ -5,6 +5,7 @@ author: "J Thomas Moros"
 title: "Automoderation"
 guid: ab642f1f-91c8-4139-934d-a611813932b2
 final: true
+modified: 2017-04-21 16:00 -04:00
 ---
 *[For a quick review, jump to the [summary](#summary) or [chart of signs](#chart).]*
 
@@ -165,3 +166,9 @@ This experimental variant is based on feedback from members in the Columbus rati
 ## Conclusion
 
 Automoderation has been a very useful addition to the social toolbox of the Columbus rationality community.  It has helped many discussions go smoothly and people to contribute and feel more comfortable participating in the dialogue.  This post was written in the hope that other rationalist communities will find it useful and spread and improve the system.  Take whatever parts seem useful and apply them as seems best.
+
+## Reactions
+
+  * [Automoderation](http://agentyduck.blogspot.com/2017/03/automoderation.html) by Brienne Yudkowsky
+  * [On Automoderation](https://thezvi.wordpress.com/2017/03/19/on-automoderation/) by The Zvi
+  * [Thoughts on Automoderation](https://weird.solar/thoughts-on-automoderation-c6e5bbc4ca42) by Proof Of Logic
