@@ -5,7 +5,7 @@ author: "J Thomas Moros"
 title: "Automoderation"
 guid: ab642f1f-91c8-4139-934d-a611813932b2
 final: true
-modified: 2017-04-21 16:00 -04:00
+modified: 2017-04-21 22:00 -04:00
 ---
 *[For a quick review, jump to the [summary](#summary) or [chart of signs](#chart).]*
 
@@ -21,7 +21,7 @@ Automoderation embodies a [wait rather than an interrupt culture](http://lesswro
 
 ## Automoderation Hand Signals
 
-The automoderation system requires participants to sit in a circle.  The flow of who speaks proceeds clockwise based on hand signals used to indicate desire for and purpose of speaking.  There are five hand signals each having a different priority.  Higher priority signals take precedence.  The primary signal is simply raising the hand indicating the desire to *expand* on the current discussion topic.  People new to automoderation are encouraged to use expand if they are in doubt as to the correct signal to use.  Each signal indicates a different intent of the speaker.  In addition, some signals modify the flow of the discussion.  In order from lowest to highest priority, they are a raised fist indicating *change topic*, the pinkie finger extended indicating a *probing question*, a raised hand indicating a desire to *expand* on the topic, the pointer finger extended indicating a *clarifying question*, and two hands forming a triangle with the thumbs and forefingers indicating *meta* point.  The hand signals are illustrated in the chart below.  A high-resolution version of this chart suitable for printing as a poster [can also be downloaded]({{site.url}}{{page.url}}hand-signals.png).
+The automoderation system requires participants to sit in a circle.  The flow of who speaks proceeds clockwise based on hand signals used to indicate desire for and purpose of speaking.  There are five hand signals each having a different priority.  Higher priority signals take precedence.  The primary signal is simply raising the hand indicating the desire to *expand* on the current discussion topic.  People new to automoderation are encouraged to use expand if they are in doubt as to the correct signal to use.  Each signal indicates a different intent of the speaker.  In addition, some signals modify the flow of the discussion.  In order from lowest to highest priority, they are a raised fist indicating *change topic*, the pinkie finger extended indicating a *probing question*, a raised hand indicating a desire to *expand* on the topic, the pointer finger extended indicating a *clarifying question*, and two hands forming a triangle with the thumbs and forefingers indicating *meta* point.  The hand signals are illustrated in the chart below in order from lowest to highest priority.  A high-resolution version of this chart suitable for printing as a poster [can also be downloaded]({{site.url}}{{page.url}}hand-signals.png).
 
 <figure markdown="1" id="chart" class="anchor">
 ![Automoderation Hand Signals Chart]({{page.url}}hand-signals-low-res.png)
@@ -172,3 +172,5 @@ Automoderation has been a very useful addition to the social toolbox of the Colu
   * [Automoderation](http://agentyduck.blogspot.com/2017/03/automoderation.html) by Brienne Yudkowsky
   * [On Automoderation](https://thezvi.wordpress.com/2017/03/19/on-automoderation/) by The Zvi
   * [Thoughts on Automoderation](https://weird.solar/thoughts-on-automoderation-c6e5bbc4ca42) by Proof Of Logic
+
+**EDIT 2017-04-21:** Added reactions, clarified chart order.
