@@ -11,5 +11,6 @@ title: "Ferocious Truth"
 author:
   name: J Thomas Moros
   email: J@FerociousTruth.com
-gems:
+plugins:
   - jekyll-redirect-from
+incremental: true
