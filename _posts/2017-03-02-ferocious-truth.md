@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: [Rationality, "Map/Territory"]
 author: "J Thomas Moros"
 title: "Ferocious Truth"

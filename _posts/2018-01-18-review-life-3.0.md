@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: ["Book Reviews", "AI Safety"]
 author: "J Thomas Moros"
 title: "Book Review: Life 3.0: Being Human in the Age of Artificial Intelligence"

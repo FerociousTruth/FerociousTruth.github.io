@@ -1,16 +1,38 @@
-name: J Thomas Moros
+# Standard Options
 markdown: kramdown
-exclude: [README.md]
-highlights: pygments
-encoding: UTF-8
+encoding: utf-8
 permalink: /:year/:title/
-paginate: 5
+collections:
+  thought-experiments:
+    output: true
 paginate_path: "/page-:num"
+paginate: 5
+exclude: [README.md, Gemfile, Gemfile.lock]
+incremental: true
+strict_front_matter: true
+plugins:
+  - jekyll-redirect-from
+
+# Front Matter Defaults
+defaults:
+  -
+    scope:
+      path: "" # any file path
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "" # any file path
+      type: "thought-experiments"
+    values:
+      layout: "thought-experiment"
+
+# Standard Site Settings
 url: "http://FerociousTruth.com"
+
+# Custom Site Settings
 title: "Ferocious Truth"
 author:
   name: J Thomas Moros
   email: J@FerociousTruth.com
-plugins:
-  - jekyll-redirect-from
-incremental: true

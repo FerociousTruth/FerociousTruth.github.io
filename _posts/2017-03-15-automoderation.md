@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: ["Rationality Community", "Cultural Tools"]
 author: "J Thomas Moros"
 title: "Automoderation"

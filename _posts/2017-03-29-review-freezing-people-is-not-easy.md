@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: ["Book Reviews", Cryonics]
 author: "J Thomas Moros"
 title: "Book Review: Freezing People is (Not) Easy"

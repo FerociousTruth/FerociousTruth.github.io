@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: [Philosophy]
 author: "J Thomas Moros"
 title: "Three Responses to Incorrect Folk Ontologies"

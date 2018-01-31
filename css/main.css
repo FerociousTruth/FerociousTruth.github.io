@@ -531,6 +531,19 @@ cite
 	}
 }
 
+/* Thought Experiments */
+.tags-line
+{
+	text-transform: uppercase;
+	color: #999;
+}
+
+.tags-line .tags
+{
+	text-transform: none;
+
+}
+
 /* page nav */
 
 .page-nav
