@@ -7,6 +7,11 @@ layout: page
 	{% else %}
 	<h1>Topic: {{page.topic}}</h1>
 	{% endif %}
+	{% assign topicSlug = page.topic | downcase | replace: ' ', '-' | replace: '.', '-' | replace: '/', '-' %}
+	{% assign description = site.data.post-tags[topicSlug].description %}
+	{% if description %}
+		<p>{{ description }}</p>
+	{% endif %}
 {% for post in site.tags[page.topic] %}
 	{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 	{% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}

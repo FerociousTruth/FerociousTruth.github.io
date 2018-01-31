@@ -1,0 +1,26 @@
+ai-safety:
+  description: >
+    The study of how we can ensure that smarter-than-human artificial intelligence will be aligned with
+    our values and have positive impacts on the world.
+cryonics:
+  description: >
+    Cryonics is an experimental extension of emergency medicine. Using cryopreservation,
+    a person who is beyond help by today's medicine is preserved for decades or centuries
+    until a future medical technology can revive and restore them to full health.
+cultural-tools:
+  description: >
+    Cultural tools are social structures and practices that we can use to create or change societies,
+    organizations, or social interactions for the better.
+map-territory:
+  description: >
+    The map is not the territory is a metaphor illustrating the differences between reality and our
+    beliefs about reality.
+rationality:
+  description: >
+    A rational agent wields its intelligence in such a way as to maximize the convergence between
+    its beliefs and reality, and acts on these beliefs in such a manner as to maximize its chances
+    of achieving whatever goals it has. Rationality is systematized winning.  Practically, the topic
+    of rationality includes epistemology, logic, cognitive biases, and debiasing.
+rationality-community:
+  description: >
+    An online and in person community that has formed around the site LessWrong.com and has since expanded.
