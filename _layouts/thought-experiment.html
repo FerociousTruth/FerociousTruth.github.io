@@ -1,0 +1,25 @@
+---
+layout: page
+---
+<article class="thought-experiment clearfix" id="{{ page.id | replace: '/blog/', 'post-' | replace: '/', '-' }}">
+	<h1>{{ page.title }}</h1>
+	<div class="byline">Published <span class="published">{{ page.date | date: "%B %-d, %Y" }}</span> by <span class="author">{{ page.author }}</span></div>
+	<div class="disclaimer">Views and opinions expressed are those of the author only.</div>
+	<div class="content">
+	{{ content }}
+	</div>
+	<div class="meta">
+		<div class="pub-line">Published: <span class="published">{{ page.date | date: "%B %-d, %Y" }}</span></div>
+		{% if page.tags != empty %}
+			<div class="tags-line">Tags: <span class="tags">{{ page.tags | join: ", " }}</span></div>
+		{% endif %}
+	</div>
+</article>
+<div class="page-nav clearfix">
+	{% if page.next %}
+		<a href="{{ page.next.url }}" class="next"><em>Next:</em> {{ page.next.title }} &raquo;</a>
+	{% endif %}
+	{% if page.previous %}
+		<a href="{{ page.previous.url }}" class="previous">&laquo; <em>Previous:</em> {{ page.previous.title }}</a>
+	{% endif %}
+</div>
