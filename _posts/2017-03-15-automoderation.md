@@ -14,9 +14,9 @@ The rationality community should ostensibly be seeking the truth in any discussi
 
 In larger and more formal settings a moderator can be appointed.  They become responsible for determining who may speak and for how long.  They facilitate discussion, ensuring that all members with standing are given a chance to speak and no one inappropriately dominates the conversation.  A moderator can also facilitate metadiscussion about procedure, topics, and participant needs while ensuring the debate isn't derailed by them.  However, in smaller or less formal settings a traditional moderator may not be called for and there may be no one willing to fill the role.  Yet, the smaller or less formal setting does not always obviate the need for some degree of moderation.
 
-The rationality community in Columbus, Ohio, found itself in the position of needing a system of moderation for their discussions, in particular for a [rationality dojo](http://lesswrong.com/lw/gn/the_martial_art_of_rationality/).  A little over two years ago Max Harms along with another member of the community created a system of hand signals supporting moderation in smaller, less formal settings.  This system was inspired by the Occupy movement hand signals.  When all participants know the hand signals, a moderator may not even be needed.  A moderator is still useful, but often does little besides clarifying the system and consequently introduces very little friction.  This system of hand signals is called automoderation.  It has been used successfully in groups as small as 3 to 4 people and as large as 15 to 20.
+The rationality community in Columbus, Ohio, found itself in the position of needing a system of moderation for their discussions, in particular for a [rationality dojo](https://lesswrong.com/lw/gn/the_martial_art_of_rationality/).  A little over two years ago Max Harms along with another member of the community created a system of hand signals supporting moderation in smaller, less formal settings.  This system was inspired by the Occupy movement hand signals.  When all participants know the hand signals, a moderator may not even be needed.  A moderator is still useful, but often does little besides clarifying the system and consequently introduces very little friction.  This system of hand signals is called automoderation.  It has been used successfully in groups as small as 3 to 4 people and as large as 15 to 20.
 
-Automoderation embodies a [wait rather than an interrupt culture](http://lesswrong.com/lw/j5n/wait_vs_interrupt_culture/).  Interrupt culture may be fine for a causal fun conversation, but collaborative truth seeking is aided by a wait culture.  Traditional moderation systems such as Robert's Rules of Order are intended to handle parliamentary proceedings and combative discussion.  This system is intended for use in a more cooperative group discussion.
+Automoderation embodies a [wait rather than an interrupt culture](https://lesswrong.com/lw/j5n/wait_vs_interrupt_culture/).  Interrupt culture may be fine for a causal fun conversation, but collaborative truth seeking is aided by a wait culture.  Traditional moderation systems such as Robert's Rules of Order are intended to handle parliamentary proceedings and combative discussion.  This system is intended for use in a more cooperative group discussion.
 
 ## Automoderation Hand Signals
 
@@ -143,12 +143,12 @@ Hand signals that are not a request to speak:
 
   * Approve/Agree (Thumbs Up)
   * Disapprove/Disagree (Thumbs Down)
-  
+
 ### Simple Variant
   1. When someone is done speaking, call on people who are signaling a desire to speak.
   2. If two or more people are signaling, call on the one with the highest priority signal; break ties by going in a circle, clockwise from the last speaker.
   3. If someone asks a question (probing or clarifying), the person they ask should respond; then flow continues from the question answerer.
-  
+
 ### Standard Variant
   1. When someone is done speaking, call on people who are signaling a desire to speak.
   2. If two or more people are signaling, call on the one with the highest priority signal; break ties by going in a circle, clockwise from the appropriate participant.
@@ -168,7 +168,7 @@ Automoderation has been a very useful addition to the social toolbox of the Colu
 
 ## Reactions
 
-  * [Automoderation](http://agentyduck.blogspot.com/2017/03/automoderation.html) by Brienne Yudkowsky
+  * [Automoderation](https://agentyduck.blogspot.com/2017/03/automoderation.html) by Brienne Yudkowsky
   * [On Automoderation](https://thezvi.wordpress.com/2017/03/19/on-automoderation/) by The Zvi
   * [Thoughts on Automoderation](https://weird.solar/thoughts-on-automoderation-c6e5bbc4ca42) by Proof Of Logic
 
