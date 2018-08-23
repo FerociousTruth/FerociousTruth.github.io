@@ -1,7 +1,7 @@
 # Site settings
 
 title: "Ferocious Truth"
-url: "http://FerociousTruth.com"
+url: "https://FerociousTruth.com"
 encoding: utf-8
 permalink: /:year/:title/
 collections:
