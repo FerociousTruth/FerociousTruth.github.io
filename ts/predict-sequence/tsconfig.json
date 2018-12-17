@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "outFile": "../../js/predict-sequence.js",
+        "moduleResolution": "node",
+        "module": "none"
+    },
+    "include": [
+        "*.ts"
+    ]
+}
