@@ -27,6 +27,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - ts/
 
 # Front Matter Defaults
 defaults:

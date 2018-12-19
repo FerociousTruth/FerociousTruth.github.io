@@ -8,5 +8,8 @@
   "devDependencies": {
     "@types/js-priority-queue": "0.0.5"
   },
-  "author": "Jeff Walker"
+  "author": "Jeff Walker",
+  "scripts": {
+      "build": "tsc && xcopy /Y node_modules\\js-priority-queue\\priority-queue.min.js ..\\..\\js\\"
+  }
 }
