@@ -1,8 +1,6 @@
-import PriorityQueue  from 'ts-priority-queue'
-
-export function *sequencesStarting(prefix: ReadonlyArray<number>, priority: (s: Sequence) => number): Iterable<Sequence>
+function *sequencesStarting(prefix: ReadonlyArray<number>, priority: (s: Sequence) => number): Iterable<Sequence>
 {
-    var comparator = function(a: Sequence, b: Sequence) { return priority(b)- priority(a); };
+    var comparator = function(a: Sequence, b: Sequence) { return priority(b) - priority(a); };
     var prioritized_sequences = new PriorityQueue({comparator: comparator});
     prioritized_sequences.queue(new Sequence(prefix, hole));
 

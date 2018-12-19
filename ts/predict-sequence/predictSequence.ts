@@ -1,5 +1,3 @@
-import { sequencesStarting } from './sequencesStarting'
-
 function predictSequenceByInduction(values: ReadonlyArray<number>): number
 {
     return predictSequence(values, s => s.cost());

@@ -1,0 +1,12 @@
+{
+  "name": "predict-sequence",
+  "private": true,
+  "description": "",
+  "dependencies": {
+    "js-priority-queue": "^0.1.5"
+  },
+  "devDependencies": {
+    "@types/js-priority-queue": "0.0.5"
+  },
+  "author": "Jeff Walker"
+}
