@@ -1,3 +1,4 @@
+/// <reference path="expressions.ts" />
 
 class Sequence
 {
@@ -42,7 +43,7 @@ class Sequence
 
     toString(): string
     {
-        return this.initialElements.map((n, i) => `x_${i+1}=n`)
+        return this.initialElements.map((n, i) => `x_${i+1}=${n}`)
             .concat([ `x_n=${this.expression}` ])
             .join(", ");
     }

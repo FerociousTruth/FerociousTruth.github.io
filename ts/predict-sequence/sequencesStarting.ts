@@ -1,10 +1,18 @@
+/// <reference path="sequence.ts" />
+/// <reference path="js-priority-queue.ts" />
+
 function *sequencesStarting(prefix: ReadonlyArray<number>, priority: (s: Sequence) => number): Iterable<Sequence>
 {
-    var comparator = function(a: Sequence, b: Sequence) { return priority(b) - priority(a); };
+    var comparator = function(a: Sequence, b: Sequence) { return priority(a) - priority(b) ; };
     var prioritized_sequences = new PriorityQueue({comparator: comparator});
-    prioritized_sequences.queue(new Sequence(prefix, hole));
 
-    for(;;)
+    for(var i = 0; i <= prefix.length; i++)
+    {
+        var initialElements = prefix.slice(0, i);
+        prioritized_sequences.queue(new Sequence(initialElements, hole));
+    }
+
+    for(var i = 0; i < 100000; i++)
     {
         var sequence = prioritized_sequences.dequeue();
         if(sequence.isPattern)
@@ -25,4 +33,6 @@ function *sequencesStarting(prefix: ReadonlyArray<number>, priority: (s: Sequenc
             yield sequence;
         }
     }
+
+    throw "reach iteration limit while searching for sequence";
 }
