@@ -3,13 +3,16 @@
 
 function *sequencesStarting(prefix: ReadonlyArray<number>, priority: (s: Sequence) => number): Iterable<Sequence>
 {
-    var comparator = function(a: Sequence, b: Sequence) { return priority(a) - priority(b) ; };
-    var prioritized_sequences = new PriorityQueue({comparator: comparator});
+    let comparator = function(a: Sequence, b: Sequence) { return priority(a) - priority(b) ; };
+    let prioritized_sequences = new PriorityQueue({comparator: comparator});
+    let allSequences = new Set();
 
     for(var i = 0; i <= prefix.length; i++)
     {
-        var initialElements = prefix.slice(0, i);
-        prioritized_sequences.queue(new Sequence(initialElements, hole));
+        let initialElements = prefix.slice(0, i);
+        let sequence = new Sequence(initialElements, hole)
+        prioritized_sequences.queue(sequence);
+        allSequences.add(sequence.toString());
     }
 
     for(var i = 0; i < 100000; i++)
@@ -25,8 +28,14 @@ function *sequencesStarting(prefix: ReadonlyArray<number>, priority: (s: Sequenc
 
             // expand and keep going
             for(var s of sequence.expand())
-                prioritized_sequences.queue(s);
-
+            {
+                let str = s.toString();
+                if(!allSequences.has(str))
+                {
+                    allSequences.add(str);
+                    prioritized_sequences.queue(s);
+                }
+            }
         }
         else if(sequence.matches(prefix))
         {

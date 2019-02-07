@@ -11,6 +11,7 @@ abstract class Expression
     abstract get isConstant(): boolean;
     abstract evaluate(n: number, evaluate: (n: number) => number): number;
     abstract expand(): Iterable<Expression>;
+    canonicalize(): Expression { return this; }
     abstract cost(): number;
 
     add(e: Expression): Expression { return new Add(this, e); }
@@ -165,7 +166,7 @@ class Add extends BinaryExpression
 
     cost(): number { return 3 + this.leftOperand.cost() + this.rightOperand.cost(); }
 
-    toString(): string { return `${this.leftOperand} + ${this.rightOperand}`; }
+    toString(): string { return `(${this.leftOperand} + ${this.rightOperand})`; }
 }
 
 class Multiply extends BinaryExpression
@@ -187,7 +188,7 @@ class Multiply extends BinaryExpression
 
     cost(): number { return 8 + this.leftOperand.cost() + this.rightOperand.cost(); }
 
-    toString(): string { return `${this.leftOperand} * ${this.rightOperand}`; }
+    toString(): string { return `(${this.leftOperand} * ${this.rightOperand})`; }
 }
 
 const hole: Expression = new Hole();
