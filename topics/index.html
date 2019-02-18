@@ -4,25 +4,20 @@ title: "Topics | Ferocious Truth"
 sitemap:
   ignore: true
 ---
-{% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag | first | replace: ' ', '_' }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | split:' ' | sort %}
 <div id="topics">
-	<h1>Topics</h1>
-	<ul>
-		{% for escapedTag in sortedtags %}
-			{% assign tag = escapedTag | replace: '_', ' ' %}
-			{% assign tagSlug = tag | downcase | replace: ' ', '-' | replace: '.', '-' | replace: '/', '-' %}
-			<li>
-				<a href="/topics/{{tagSlug}}/" class="internal">{{tag}}</a> <span class="count">({{ site.tags[tag].size }})</span>
-				{% assign description = site.data.post-tags[tagSlug].description %}
-				{% if description %}
-					<p>{{ description }}</p>
-				{% endif %}
-		</li>
-		{% endfor %}
-	</ul>
+    <h1>Topics</h1>
+    <ul>
+    {% assign sorted_tags = site.tags | sort %}
+    {% for tag in sorted_tags %}
+        <li>
+            {% assign tag_name = tag[0] %}
+            {% assign slug = tag_name | slugify %}
+            <a href="/topics/{{slug}}/" class="internal">{{tag_name}}</a> <span class="count">({{tag[1].size}})</span>
+            {% assign description = site.data.post-tags[slug].description %}
+            {% if description %}
+                <p>{{ description }}</p>
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
 </div>
