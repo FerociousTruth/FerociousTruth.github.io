@@ -10,12 +10,12 @@ layout: page
             {% if first_post %}<h1>{{page.year}} Drafts</h1>{% endif %}
             {% assign post_month = post.date | date: "%B" %}
             {% if post_month != current_month %}
-            {% unless first_post %}</section></ul>{% endunless %}
-            <section class="month">
-                <h2>{{post_month}}</h2>
-                <ul>
+                {% unless first_post %}</section></ul>{% endunless %}
+                <section class="month">
+                    <h2>{{post_month}}</h2>
+                    <ul>
             {% endif %}
-                    <li><a href="{{post.url}}" class="internal">{{post.title}}</a></li>
+                        <li><a href="{{post.url}}" class="internal">{{post.title}}</a></li>
             {% assign current_year = post_year %}
             {% assign current_month = post_month %}
             {% assign first_post = false %}
@@ -34,12 +34,12 @@ layout: page
         {% if post_year == page.year %}
             {% assign post_month = post.date | date: "%B" %}
             {% if post_month != current_month %}
-            {% unless first_post %}</section></ul>{% endunless %}
-            <section class="month">
-                <h2>{{post_month}}</h2>
-                <ul>
+                {% unless first_post %}</section></ul>{% endunless %}
+                <section class="month">
+                    <h2>{{post_month}}</h2>
+                    <ul>
             {% endif %}
-                    <li><a href="{{post.url}}" class="internal">{{post.title}}</a></li>
+                        <li><a href="{{post.url}}" class="internal">{{post.title}}</a></li>
             {% assign current_year = post_year %}
             {% assign current_month = post_month %}
             {% assign first_post = false %}
