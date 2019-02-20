@@ -1,19 +1,19 @@
 body
 {
-	width: 100%;
-	height: 100%;
-	font-family: 'Crimson Text', serif;
-	font-size: 14pt;
-	color: #444;
-	background-color: white;
+    width: 100%;
+    height: 100%;
+    font-family: 'Crimson Text', serif;
+    font-size: 14pt;
+    color: #444;
+    background-color: white;
 }
 
 @media print
 {
-	body
-	{
-		color: #000;
-	}
+    body
+    {
+        color: #000;
+    }
 }
 
 html
@@ -25,34 +25,34 @@ html
 /* when something isn't set up correct in a post */
 .error
 {
-	font-size: 48pt;
-	color: red;
-	text-align: center;
+    font-size: 48pt;
+    color: red;
+    text-align: center;
 }
 
 /* Link color */
 a:link, :visited
 {
-	color: #69809B;
-	text-decoration: none;
+    color: #69809B;
+    text-decoration: none;
 }
 a:hover, a:active
 {
-	color: #262E38;
-	text-decoration: underline;
+    color: #262E38;
+    text-decoration: underline;
 }
 
 /* navbar */
 .nav-space
 {
-	height: 70px;
+    height: 70px;
 }
 @media print
 {
-	.nav-space
-	{
-		display: none;
-	}
+    .nav-space
+    {
+        display: none;
+    }
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -71,19 +71,19 @@ a:hover, a:active
 }
 .navbar-custom .navbar-brand
 {
-	font-weight: 700;
-	font-size: 40px;
+    font-weight: 700;
+    font-size: 40px;
 }
 .navbar-custom .navbar-brand .ferocious
 {
-	font-family: 'Tangerine', cursive;
-	font-weight: bold;
-	text-transform: lowercase;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    text-transform: lowercase;
 }
 .navbar-custom .navbar-brand .truth
 {
-	text-transform: none;
-	font-variant: small-caps;
+    text-transform: none;
+    font-variant: small-caps;
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
@@ -117,52 +117,52 @@ a:hover, a:active
 }
 @media (min-width: 768px)
 {
-	.navbar-custom
-	{
-		padding: 20px 0;
-		border-bottom: none;
-		letter-spacing: 1px;
-		background: transparent;
-		-webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-		-moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-		transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-	}
-	.navbar-custom .navbar-brand
-	{
-		visibility: hidden;
-		opacity: 0;
-		transition: visibility 0s linear 0.5s, opacity 0.5s linear;
-	}
-	.navbar-custom.top-nav-collapse
-	{
-		padding: 0;
-		background: black;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-	}
-	.navbar-custom.top-nav-collapse  .navbar-brand
-	{
-		visibility: visible;
-		opacity: 1;
-		transition-delay: 0s;
-	}
+    .navbar-custom
+    {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+    .navbar-custom .navbar-brand
+    {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    }
+    .navbar-custom.top-nav-collapse
+    {
+        padding: 0;
+        background: black;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .navbar-custom.top-nav-collapse  .navbar-brand
+    {
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0s;
+    }
 }
 
 /* main page intro */
 .intro
 {
-	position: relative; /* So we can position the fade within it */
-	display: table;
-	width: 100%;
-	height: auto;
-	padding: 100px 0;
-	text-align: center;
-	color: white;
-	background: url(../img/intro-bg.jpg) no-repeat top center scroll;
-	background-color: black;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+    position: relative; /* So we can position the fade within it */
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/intro-bg.jpg) no-repeat top center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 .intro .intro-body
 {
@@ -172,84 +172,84 @@ a:hover, a:active
 }
 .intro .intro-body .intro-brand
 {
-	display: block;
-	font-size: 70px;
-	line-height: 70%;
-	margin-bottom: 0.5em;
+    display: block;
+    font-size: 70px;
+    line-height: 70%;
+    margin-bottom: 0.5em;
 }
 .intro .intro-body .intro-ferocious
 {
-	font-family: 'Tangerine', cursive;
-	font-weight: bold;
-	text-transform: lowercase;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    text-transform: lowercase;
 }
 .intro .intro-body .intro-truth
 {
-	font-variant: small-caps;
+    font-variant: small-caps;
 }
 .intro .intro-body .intro-tagline
 {
-	display: block;
-	font-size: 30px;
+    display: block;
+    font-size: 30px;
 }
 .intro .intro-body .intro-connector
 {
-	font-style: italic;
-	font-size: 24px;
+    font-style: italic;
+    font-size: 24px;
 }
 .intro-fade
 {
-	height: 85px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: url(../img/fade.png) repeat-x;
+    height: 85px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../img/fade.png) repeat-x;
 }
 @media print
 {
-	.intro .page-scroll
-	{
-		display: none;
-	}
+    .intro .page-scroll
+    {
+        display: none;
+    }
 }
 @media (min-width: 768px)
 {
-	.intro
-	{
-		height: 100%;
-		padding: 0;
-	}
-	.intro .intro-body .row
-	{
-		margin-top: 85px;
-		margin-bottom: 85px;
-	}
-	.intro .intro-body .intro-brand
-	{
-		font-size: 128px;
-	}
-	.intro .intro-body .intro-connector
-	{
-		font-size: 40px;
-	}
-	.intro .intro-body .intro-tagline
-	{
-		font-size: 50px;
-	}
+    .intro
+    {
+        height: 100%;
+        padding: 0;
+    }
+    .intro .intro-body .row
+    {
+        margin-top: 85px;
+        margin-bottom: 85px;
+    }
+    .intro .intro-body .intro-brand
+    {
+        font-size: 128px;
+    }
+    .intro .intro-body .intro-connector
+    {
+        font-size: 40px;
+    }
+    .intro .intro-body .intro-tagline
+    {
+        font-size: 50px;
+    }
 }
 @media print
 {
-	.intro .intro-body .row
-	{
-		margin-top: 1em;
-		margin-bottom: 1em;
-	}
+    .intro .intro-body .row
+    {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 
-	.intro-fade
-	{
-		display: none;
-	}
+    .intro-fade
+    {
+        display: none;
+    }
 }
 .btn-circle {
   width: 70px;
@@ -323,224 +323,239 @@ a:hover, a:active
 
 @media print
 {
-	a[href].internal:after,
-	a[href].cited:after
-	{
-		content: none;
-	}
+    a[href].internal:after,
+    a[href].cited:after
+    {
+        content: none;
+    }
 }
 
 /* article stuff */
-article
+article.post
 {
-	margin-top: 2em;
-	border-top: 1px solid #ddd;
+    margin-top: 2em;
+    border-top: 1px solid #ddd;
 }
 
-article > .pub-line
+article.post > .pub-line
 {
-	text-align: center;
+    text-align: center;
 }
-article > .pub-line .published
+article.post > .pub-line .published
 {
-	display: inline-block;
-	position: relative;
-	margin: 0 auto;
-	top: -1em;
-	padding: 0 1ex;
-	font-family: "helvetica neue", helvetica, arial;
-	letter-spacing: normal;
-	font-size: 12pt;
-	color: #999;
-	background: #FFF;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    top: -1em;
+    padding: 0 1ex;
+    font-family: "helvetica neue", helvetica, arial;
+    letter-spacing: normal;
+    font-size: 12pt;
+    color: #999;
+    background: #FFF;
 }
 
 @media print
 {
-	article > .pub-line .published
-	{
-		top: 0;
-	}
+    article.post > .pub-line .published
+    {
+        top: 0;
+    }
+}
+
+
+article.thought-experiment > .byline
+{
+    margin-bottom: 0.25em;
+}
+
+article.thought-experiment > .pub-line,
+article.thought-experiment > .modified-line
+{
+    font-size: 0.8em;
 }
 
 article h1
 {
-	color: #444;
-	text-transform: none;
+    color: #444;
+    text-transform: none;
 }
 
 article h1 a:link, article h1 :visited
 {
-	color: #444;
+    color: #444;
 }
 
 /* Fix scroll to anchor inside of document */
 article h2[id]:before, article .anchor[id]:before
 {
-	display: block;
-	content: " ";
-	margin-top: -50px;
-	height: 50px;
-	visibility: hidden;
+    display: block;
+    content: " ";
+    margin-top: -50px;
+    height: 50px;
+    visibility: hidden;
 }
 
 article .byline
 {
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
+
 article .disclaimer
 {
-	font-size: 0.8em;
-	margin-bottom: 1em;
+    font-size: 0.8em;
+    margin-bottom: 1em;
 }
 
 article .content
 {
-	margin-top: 1em;
+    margin-top: 1em;
 }
 
 article img
 {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 /* remove extra space below p tag inserted by markdown around image tag inside of figure */
 article figure p
 {
-	margin: 0;
+    margin: 0;
 }
 
 article figcaption
 {
-	font-size: 12pt;
-	color: #999;
+    font-size: 12pt;
+    color: #999;
 }
 
 article .meta
 {
-	color: #999;
+    color: #999;
 }
 
-article .meta .pub-line, article .meta .topic-line, article .meta .no-comments
+article .meta .pub-line,
+article .meta .topic-line,
+article .meta .no-comments
 {
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 article .meta .published, article .meta .topics
 {
-	text-transform: none;
+    text-transform: none;
 }
 
 article .meta .no-comments
 {
-	margin-top: 0.5em;
-	text-align: center;
+    margin-top: 0.5em;
+    text-align: center;
 }
 
 article .meta .comments
 {
-	text-align: center;
+    text-align: center;
 }
 
 article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
 {
-	float: right;
-	margin-right: 4ex;
+    float: right;
+    margin-right: 4ex;
 }
 
 @media print
 {
-	article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
-	{
-		display: none;
-	}
+    article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
+    {
+        display: none;
+    }
 }
 
 article .meta .subscribe
 {
-	margin-right: 0; /* no margin for the rightmost button */
-	overflow-x: hidden; /* hide the space removed from the feedpress-button */
+    margin-right: 0; /* no margin for the rightmost button */
+    overflow-x: hidden; /* hide the space removed from the feedpress-button */
 }
 
 article .meta .subscribe > .feedpress-button
 {
-	margin-right: -11px; /* get rid of extra space from feed press */
+    margin-right: -11px; /* get rid of extra space from feed press */
 }
 
 article, p, .page-nav, li
 {
-	font-size: 14pt;
-	line-height: 1.5em;
-	color: #444;
+    font-size: 14pt;
+    line-height: 1.5em;
+    color: #444;
 }
 
 article, article p, article ul, article ol, .page-nav, figure
 {
-	margin-bottom: 1.75em;
+    margin-bottom: 1.75em;
 }
 
 @media print
 {
-	.page-nav
-	{
-		display: none;
-	}
+    .page-nav
+    {
+        display: none;
+    }
 }
 
 article p+ul, article p+ol
 {
-	margin-top: -1em;
+    margin-top: -1em;
 }
 
 blockquote
 {
-	margin: 0 0 1.75em;
+    margin: 0 0 1.75em;
 }
 
 blockquote p
 {
-	margin: 0 0 10px;
+    margin: 0 0 10px;
 }
 
 blockquote footer
 {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 cite
 {
-	font-style: italic;
+    font-style: italic;
 }
 
 /* footnotes shouldn't have space between them */
 .footnotes li p:last-child
 {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 @media print
 {
-	.reversefootnote
-	{
-		display: none;
-	}
+    .reversefootnote
+    {
+        display: none;
+    }
 
-	.footnotes a[href]:after
-	{
-		content: " " attr(href);
-	}
+    .footnotes a[href]:after
+    {
+        content: " " attr(href);
+    }
 }
 
 /* Thought Experiments */
 .tags-line
 {
-	text-transform: uppercase;
-	color: #999;
+    text-transform: uppercase;
+    color: #999;
 }
 
 .tags-line .tags
 {
-	text-transform: none;
+    text-transform: none;
 
 }
 
@@ -548,35 +563,35 @@ cite
 
 .page-nav
 {
-	border: 1px solid #ddd;
-	/*border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;*/
-	padding-top: 1em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	margin: 1.5em 0;
-	background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    /*border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;*/
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin: 1.5em 0;
+    background-color: #f7f7f7;
 }
 
 .page-nav .previous, .page-nav .older
 {
-	display: block;
-	float: left;
-	margin-right: 1em;
-	margin-bottom: 1em;
+    display: block;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .page-nav .next, .page-nav .newer
 {
-	display: block;
-	float: right;
-	text-align: right;
-	margin-left: 1em;
-	margin-bottom: 1em;
+    display: block;
+    float: right;
+    text-align: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
 
 /* footer */
 footer
 {
-	margin-top: 4em;
+    margin-top: 4em;
 }

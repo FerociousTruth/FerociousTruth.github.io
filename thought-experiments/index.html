@@ -5,15 +5,15 @@ sitemap:
   ignore: true
 ---
 <div id="topics">
-  <h1>Thought Experiments</h1>
-  <p>Descriptions of philosophical thought experiments.</p>
-	<ul>
-    {% for item in site.thought-experiments %}
+    <h1>Thought Experiments</h1>
+    <p>Descriptions of philosophical problems and thought experiments.</p>
+    <ul>
+    {% for item in site["thought-experiments"] %}
       <li>
         <a href="{{ item.url }}" class="internal">{{ item.title }}</a>
         <div class="tags-line">Tags: <span class="tags">{{ item.tags | join: ", " }}</span></div>
         <p>{{ item.description }}</p>
       </li>
     {% endfor %}
-	</ul>
+    </ul>
 </div>
