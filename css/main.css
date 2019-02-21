@@ -457,7 +457,7 @@ article .meta .comments
     text-align: center;
 }
 
-article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
+article .meta .subscribe, article .meta .tweet
 {
     float: right;
     margin-right: 4ex;
@@ -465,7 +465,7 @@ article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
 
 @media print
 {
-    article .meta .subscribe, article .meta .tweet, article .meta .google-plus-one
+    article .meta .subscribe, article .meta .tweet
     {
         display: none;
     }
