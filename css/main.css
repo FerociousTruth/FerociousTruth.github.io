@@ -559,6 +559,11 @@ cite
 
 }
 
+.nowrap
+{
+    white-space: nowrap;
+}
+
 /* page nav */
 
 .page-nav
