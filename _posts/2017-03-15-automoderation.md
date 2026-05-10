@@ -4,6 +4,7 @@ author: "J Thomas Moros"
 title: "Automoderation"
 guid: ab642f1f-91c8-4139-934d-a611813932b2
 final: true
+comments: true
 modified: 2017-04-21 22:00 -04:00
 ---
 *[For a quick review, jump to the [summary](#summary) or [chart of signs](#chart).]*

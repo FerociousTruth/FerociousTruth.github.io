@@ -4,6 +4,7 @@ author: "J Thomas Moros"
 title: "Book Review: Freezing People is (Not) Easy"
 guid: 50a6c0f5-f1e1-46ce-a203-bb5ea6140d1f
 final: true
+comments: true
 ---
 Recently I read *Freezing People is (Not) Easy: My Adventures in Cryonics* by Bob Nelson.[^B]  It recounts his time as president of the Cryonics Society of California (CSC) during which he cryopreserved and then attempted to maintain the cryopreservation of a number of early cryonics patients. I've been thinking about and investigating cryonics of late, so I went looking for any and all related material I could get my hands on.  Since this book was the only one I could source from my local library, it ended up being the first one I read.  I was looking to gain insight into why cryonics has not become more popular and to learn some of the challenges faced when attempting to run a cryonics organization.  What I found instead was a sad tale of typical human failings.  It should be noted that the author has been a very controversial figure and some might claim that the veracity of this book is questionable.  He has been called a fraud and a con man.  If his memoir is to be believed, he was simply seeking to help people fulfill their desires to be cryopreserved, but foolishly failed to adequately plan, prepare, or ensure monetary provision for the task.
 

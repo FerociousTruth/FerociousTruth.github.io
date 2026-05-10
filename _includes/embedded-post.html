@@ -8,9 +8,9 @@
     </div>
     <div class="meta">
 {% if post.final %}
-    {% if post.comments == null or post.comments %}
+    {% if post.comments %}
         <div class="comments"><a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.guid}}" class="internal">comments</a></div>
-    {% else %}
+    {% elsif post.comments == false %}
         <div class="no-comments">Comments Closed</a></div>
     {% endif %}
 {% endif %}

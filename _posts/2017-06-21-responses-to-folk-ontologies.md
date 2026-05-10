@@ -5,6 +5,7 @@ title: "Three Responses to Incorrect Folk Ontologies"
 guid: e1c001a0-a21e-43d2-abc6-74789e096842
 modified: 2017-06-21 19:00 -05:00
 final: true
+comments: true
 ---
 
 A [comment](http://disq.us/p/1gpasy7) on my first post, ["Ferocious Truth,"](//ferocioustruth.com/2017/ferocious-truth/) raised an interesting topic.  The commenter, Simon, described two ways of handling what might be termed a *folk ontology* when it doesn't properly correspond to reality.  I've coined the term folk ontology to refer to concepts and categories held by ordinary people with regard to an idea, particularly in reference to when they have not reflected on the nature of the idea.  The issue of folk ontologies that don't correspond to reality often comes up with ideas philosophy deals with such as free will, [personal identity](https://en.wikipedia.org/wiki/Personal_identity), and morality.  However, it also arises with prescientific concepts about things as diverse as warmth, magic, astrology, and the sun rising in the east.  Many folk ontologies seem to have their roots in evolved human biases and perceptions.  How else can we explain beliefs about magic and personal identity that are widely shared across cultures and even amongst isolated tribes?

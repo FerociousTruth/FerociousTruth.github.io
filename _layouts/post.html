@@ -1,9 +1,7 @@
 ---
 layout: page
 ---
-{% if page.comments == null %}
-    {% assign comments = true %}
-{% else %}
+{% if page.comments != null %}
     {% assign comments = page.comments %}
 {% endif %}
 {% if page.guid == null %}
@@ -30,7 +28,7 @@ layout: page
             {% endfor %}
             </span></div>
         {% endif %}
-        {% if comments != true %}
+        {% if comments == false %}
         <div class="no-comments">Comments Closed</div>
         {% endif %}
         <div class="subscribe">
